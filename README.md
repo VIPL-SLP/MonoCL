@@ -18,12 +18,32 @@ Our method addresses these issues with a three-stage pipeline. First, candidate 
 
 ## Files
 
+### How2Sign
+
 | File | Description | #Items |
 | --- | --- | ---: |
 | `train_pseudo_glosses.json` | Pseudo glosses for the How2Sign training split | 30,384 |
 | `val_pseudo_glosses.json` | Pseudo glosses for the validation split | 1,713 |
 | `test_pseudo_glosses.json` | Pseudo glosses for the test split | 2,328 |
-| `word_dict.json` | Pseudo-gloss vocabulary, usable like `gloss_dict` in gloss-based SLT methods | 8,081 |
+| `word_dict.json` | Pseudo-gloss vocabulary, usable like `gloss_dict` in gloss-based SLT methods | 7,696 |
+
+### PHOENIX14T
+
+| File | Description | #Items |
+| --- | --- | ---: |
+| `train_pseudo_glosses.json` | Pseudo glosses for the PHOENIX14T training split | 7,096 |
+| `dev_pseudo_glosses.json` | Pseudo glosses for the validation split | 519 |
+| `test_pseudo_glosses.json` | Pseudo glosses for the test split | 642 |
+| `word_dict.json` | Pseudo-gloss vocabulary, usable like `gloss_dict` in gloss-based SLT methods | 1,451 |
+
+### CSL-Daily
+
+| File | Description | #Items |
+| --- | --- | ---: |
+| `train_pseudo_glosses.json` | Pseudo glosses for the CSL-Daily training split | 18,400 |
+| `dev_pseudo_glosses.json` | Pseudo glosses for the validation split | 1,077 |
+| `test_pseudo_glosses.json` | Pseudo glosses for the test split | 1,176 |
+| `word_dict.json` | Pseudo-gloss vocabulary, usable like `gloss_dict` in gloss-based SLT methods | 6,102 |
 
 ## Format
 
